@@ -100,7 +100,7 @@ export const conditions: Condition[] = [
     summary:
       "Blood pressure that stays high despite several medicines, where a specialist review can uncover a treatable underlying cause.",
     intro:
-      "Blood pressure is described as resistant when it remains above target despite treatment with several medicines taken correctly. It deserves careful assessment rather than simply adding more tablets.",
+      "Blood pressure is described as resistant when it remains above target despite treatment with anti-hypertensives taken correctly. It deserves careful assessment.",
     what: [
       "Blood pressure is the force of blood against the walls of your arteries. When it stays high over years, it can quietly damage the kidneys, heart, brain and eyes.",
       "Resistant hypertension usually means blood pressure remains above the agreed target while taking three or more blood pressure medicines, typically including a diuretic (water tablet).",
@@ -308,7 +308,7 @@ export const conditions: Condition[] = [
     summary:
       "Assessment before transplantation and long-term medical care of a transplanted kidney.",
     intro:
-      "For many people with advanced kidney disease, a kidney transplant offers an alternative to long-term dialysis. Transplant medicine covers the assessment beforehand and the careful medical care that follows.",
+      "For many people with advanced kidney disease, a kidney transplant offers an alternative to long-term dialysis. Transplant medicine covers the assessment before and the careful medical care that follows.",
     what: [
       "A kidney transplant places a healthy kidney from a living or deceased donor into the body, where it takes over the filtering work.",
       "Not everyone is suitable for a transplant, and suitability is assessed thoroughly and individually by a transplant team.",

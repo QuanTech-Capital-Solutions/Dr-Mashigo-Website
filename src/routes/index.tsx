@@ -129,28 +129,19 @@ function Expertise() {
         <SectionHeading
           label="Areas of Expertise"
           title={<span id="expertise-heading">Conditions We Care For</span>}
-          intro="Nephrology covers a wide range of conditions, some sudden and some lifelong. Each summary below explains what the condition means and when a specialist opinion may be helpful."
+          intro="Nephrology covers a wide range of conditions, some sudden and some lifelong. Each summary below gives an idea of some of the conditions we look after. I believe that understanding your diagnosis is the first step towards partnering with your clinician for overall care."
         />
 
         <ul className="mt-16 grid gap-px border border-border bg-border md:grid-cols-2">
           {conditions.map((condition, i) => (
             <li key={condition.slug} className="bg-surface">
-              <Reveal delay={(i % 2) * 60} className="h-full">
-                <Link
-                  to="/conditions/$slug"
-                  params={{ slug: condition.slug }}
-                  className="group flex h-full flex-col p-8 transition-colors hover:bg-background md:p-10"
-                >
-                  <h3 className="text-2xl" style={{ fontFamily: "var(--font-serif)" }}>
-                    {condition.title}
-                  </h3>
-                  <p className="mt-4 text-[0.9375rem] leading-relaxed text-muted-foreground">
-                    {condition.summary}
-                  </p>
-                  <span className="mt-6 text-[0.6875rem] font-medium uppercase tracking-[0.16em] text-accent underline-offset-[6px] group-hover:underline">
-                    Read more
-                  </span>
-                </Link>
+              <Reveal delay={(i % 2) * 60} className="h-full group flex h-full flex-col p-8 transition-colors hover:bg-background md:p-10">
+                <h3 className="text-2xl" style={{ fontFamily: "var(--font-serif)" }}>
+                  {condition.title}
+                </h3>
+                <p className="mt-4 text-[0.9375rem] leading-relaxed text-muted-foreground">
+                  {condition.summary}
+                </p>
               </Reveal>
             </li>
           ))}
@@ -167,7 +158,7 @@ function WhyChooseUs() {
       <Container className="py-24 md:py-32">
         <SectionHeading
           label="Why Choose Us"
-          title={<span id="why-heading">Specialist Care With a Personal Approach</span>}
+          title={<span id="why-heading">Personalised Specialist Care</span>}
         />
         <div className="mt-16 grid gap-x-16 gap-y-12 md:grid-cols-2">
           {principles.map((item, i) => (

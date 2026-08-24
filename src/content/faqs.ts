@@ -9,7 +9,7 @@ export const faqGroups: { title: string; faqs: Faq[] }[] = [
       {
         question: "What does a nephrologist do?",
         answer:
-          "A nephrologist is a specialist physician who focuses on the kidneys. This includes diagnosing and managing kidney disease, high blood pressure related to the kidneys, disturbances in the body's salt and fluid balance, dialysis and the medical care of kidney transplants.",
+          "A nephrologist is a specialist physician who focuses on the kidneys. This includes diagnosing and managing kidney disease, high blood pressure related to the kidneys, disturbances in the body's minerals and fluid balance, dialysis and the medical care of kidney transplants.",
       },
       {
         question: "When should I see a nephrologist?",
@@ -21,11 +21,6 @@ export const faqGroups: { title: string; faqs: Faq[] }[] = [
         answer: practice.referralPolicy,
       },
       {
-        question: "What happens during a nephrology consultation?",
-        answer:
-          "The consultation usually begins with a detailed conversation about your symptoms, medical history, family history and medicines. This is followed by a clinical examination including blood pressure measurement. Existing results are reviewed, further tests may be arranged where needed, and the findings and plan are explained to you.",
-      },
-      {
         question: "What should I bring to my appointment?",
         answer:
           "Bring your identity document and medical aid details, a list of all your medicines including doses, any previous blood or urine results, imaging reports, referral documentation if you have it, and a written list of the questions you would like to discuss.",
@@ -35,11 +30,6 @@ export const faqGroups: { title: string; faqs: Faq[] }[] = [
   {
     title: "Kidney function and testing",
     faqs: [
-      {
-        question: "What tests are commonly used to assess kidney function?",
-        answer:
-          "The most common are a blood test measuring creatinine, which is used to estimate the filtration rate (eGFR), and a urine test looking for protein and blood. Blood pressure measurement, blood salt levels and an ultrasound of the kidneys are also frequently used. In some cases a kidney biopsy is needed to identify the exact condition.",
-      },
       {
         question: "What is chronic kidney disease?",
         answer:

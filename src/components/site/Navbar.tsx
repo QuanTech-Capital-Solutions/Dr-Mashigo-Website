@@ -59,7 +59,7 @@ export function Navbar() {
             />
             <span className="min-w-0">
               <span className="block truncate font-serif text-lg leading-tight tracking-tight md:text-xl">
-                Dr. B. MASHIGO
+                Dr. B. MASHIGO INC.
               </span>
               <span className="hidden text-[0.625rem] uppercase tracking-[0.2em] text-muted-foreground sm:block">
                 Nephrologist
